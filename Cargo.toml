@@ -1,0 +1,12 @@
+[package]
+name = "rust-atomics-and-locks"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_atomics_and_locks"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_atomics_and_locks"
+path = "src/main.rs"
